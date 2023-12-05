@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b9d370bb1a17c144b9103875c0e781c9
+guid: 65680ecc61feca9428c9d0d2d740eebb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -141,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DefaulCharactert_0
+      name: Run_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 6
-        width: 20
-        height: 36
+        x: 4
+        y: 4
+        width: 25
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,8 +155,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e0e3cac8370905408668eb7b6c679ea
-      internalID: 22435483
+      spriteID: aa816590e3b1231498866235019c3fca
+      internalID: 334441649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfae7a43056d964784a342c397fff2f
+      internalID: -623029813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 4
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cce9e14966ce7648a1326ef1f43527f
+      internalID: -973208088
       vertices: []
       indices: 
       edges: []
@@ -172,7 +214,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DefaulCharactert_0: 22435483
+      Run_0: 334441649
+      Run_1: -623029813
+      Run_2: -973208088
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

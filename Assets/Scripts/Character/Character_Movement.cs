@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class Character_Movement : MonoBehaviour
@@ -5,11 +6,15 @@ public class Character_Movement : MonoBehaviour
     public float velocidad = 5f;
     public float fuerzaSalto = 12f;
 
+    private Animator animator;
+    public float poto;
+
     private Rigidbody2D rb;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -24,6 +29,8 @@ public class Character_Movement : MonoBehaviour
         {
             Saltar();
         }
+
+        animator.SetFloat("speed", movimientoHorizontal);
     }
 
     private void Saltar()
